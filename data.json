@@ -1,4 +1,3 @@
-
   {
     "users": [
       {
@@ -16,11 +15,9 @@
         "pic": "https://ih1.redbubble.net/image.13322831.6235/flat,220x200,075,t.u3.jpg",
         "email": "lsturman@ucsd.edu"
       }
-    ]
-  },
+    ],
 
-  {
-    "rides": [
+  "rides": [
       {
         "username": "Hansol You",
         "email": "h5you@ucsd.edu",
@@ -39,11 +36,9 @@
         "pickup": [0.123, 0.123],
         "dropoff": [1.123, 1.123]
       }
-    ]
-  }
-
-  {
-    "drives":[
+    ],
+  
+  "drives":[
       {
         "username": "Leanne Sturman",
         "email": "lsturman@ucsd.edu",
@@ -53,7 +48,7 @@
         "dates": [0, 1, 0, 1, 0, 1, 0],
         "pickup": [0.123, 0.123],
         "dropoff": [1.123, 1.123]
-      }
+      },
       {
         "username": "Sir Winston",
         "email": "swinston@ucsd.edu",
