@@ -9,16 +9,18 @@
 
     <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
     <link rel="stylesheet" type="text/css" href="/stylesheets/sidebar.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/popup.css">
     
     <!-- Importing Google Fonts -->
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans" />
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Pacifico" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+    
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Pacifico" />
 
 
     <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-
+    
 </head>
 
 
@@ -76,36 +78,11 @@
 		<div class="col-md-9">
             <div class="profile-content">
 			   <p>main page</p>
-
-
-    				<a href="#myPopup" data-rel="popup"><span class="glyphicon glyphicon-plus-sign"></span></a>
-
-    				<div data-role="popup" id="myPopup" class="ui-content" style="min-width:250px;">
-      					<form method="post" action="demoform.asp">
-        					<div>
-          						<h3>Drive</h3>
-          						<label for="pickup" class="ui-hidden-accessible">PickUp:</label>
-						        <input type="search" name="pick" id="pickup" placeholder="Pick Up">
-						        <label for="dropoff" class="ui-hidden-accessible">DropOff:</label>
-						        <input type="search" name="drop" id="dropoff" placeholder="Drop Off">
-						        <label for="numseat" class="ui-hidden-accessible">Seats:</label>
-						        <input type="number" name="seat" id="numseat" placeholder="Seats">
-						        <input type="submit" data-inline="true" value="Create Group">
-					        </div>
-					     </form>
-					</div>
-
+                    <a href="#myPopup" id="addBtn" data-rel="popup" class="btn btn-default">+</a>
             </div>
 		</div>
-
-
 	</div>
 </div>
-
-
-
-
-
 </body>
 
 
