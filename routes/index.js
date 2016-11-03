@@ -11,7 +11,7 @@ router.get('/main', function(req, res, next) {
 	var fs = require('fs');
 	var data = JSON.parse(fs.readFileSync('data.json', 'utf8'));
 	console.log(data)
-	res.render('main', { userprofile: data });
+	res.render('main', { userprofile: data.users });
 });
 
 /* GET discovery page. */
@@ -19,7 +19,7 @@ router.get('/discovery', function(req, res, next) {
 	var fs = require('fs');
 	var data = JSON.parse(fs.readFileSync('data.json', 'utf8'));
 	console.log(data)
-	res.render('discovery', { userprofile: data });
+	res.render('discovery', { userprofile: data.users });
 });
 
 
@@ -28,7 +28,7 @@ router.get('/settings', function(req, res, next) {
 	var fs = require('fs');
 	var data = JSON.parse(fs.readFileSync('data.json', 'utf8'));
 	console.log(data)
-	res.render('settings', { userprofile: data });
+	res.render('settings', { userprofile: data.users });
 });
 
 
